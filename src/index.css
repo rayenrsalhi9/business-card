@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-color: #F5F5F5;
+    font-weight: 600;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    padding-top: 2em;
+}
+
+header img {
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+header .name {
+    color: #2B283A;
+    font-size: 2.5rem;
+    margin: .25em 0 0;
+}
+
+header .role {
+    font-size: 1.25rem;
+    color: #F47D27;
+}
+
+header .location {
+    color: #4A4E74;
+    margin: .75em 0;
+}
+
+header .social-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5em;
+    margin-top: 1.5em;
+}
+
+header a {
+    text-decoration: none;
+    border: 2px solid;
+    padding: .5em 1.25em;
+    display: inline-block;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1.25rem;
+    transition: .6s ease;
+}
+
+header a i {
+    margin-right: .5em;
+}
+
+header a.gmail {
+    background: white;
+    border-color: lightgray;
+    color: #2B283A;
+}
+
+header a.gmail:hover {
+    color: black;
+    background: rgb(234, 234, 234);
+}
+
+header a.linkedin {
+    color: white;
+    background: #297FE5;
+    border-color: #297FE5;
+}
+
+header a.linkedin:hover {
+    background-color: #1566c9;
+}
+
+/* sections design */
+.section {
+    padding: 3em 2em 2em;
+}
+
+.section.interests {
+    padding-top: 0;
+    padding-bottom: 3em;
+}
+
+.section .section-title {
+    font-size: 1.75rem;
+    color: #2B283A;
+    margin-bottom: .5em;
+}
+
+.section .section-text {
+    line-height: 1.5;
+    color: #4A4E74;
+    font-size: 1.25rem;
+}
+
+/* footer design*/
+footer {
+    background: #D5D4D8;
+    padding: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+footer i {
+    color: #918E9B;
+    font-size: 2.5rem;
+    transition: .6s ease;
+}
+
+footer i:hover {
+    color: #6f6e73;
+}
