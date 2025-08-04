@@ -1,7 +1,9 @@
+import coverImg from '../assets/cover.jpg'
+
 export default function Info() {
     return(
         <header>
-            <img src="/src/assets/cover.jpg" alt="cover image" />
+            <img src={coverImg} alt="cover image" />
             <div className="info">
                 <h1 className="name">Salhi Rayene</h1>
                 <p className="role">Fullstack Developer</p>
